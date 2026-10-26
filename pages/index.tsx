@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "../components/Footer";
+import Pricing from "@/components/Pricing";
+import TechStack from "@/components/TechStack";
 import Link from "next/link";
 
 
@@ -378,6 +380,8 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <TechStack />
+        <Pricing />
 
         <section id="contact" className="border-t border-white/10 px-6 py-20 lg:px-10">
           <div className="mx-auto max-w-7xl rounded-2xl border border-blue-500/20 bg-blue-500/[0.06] p-8 sm:p-12">
